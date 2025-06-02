@@ -14,7 +14,6 @@ Implementasi efisien untuk menyelesaikan TSP menggunakan algoritma Dynamic Progr
 - [Contoh Penggunaan](#contoh-penggunaan)
 - [Kompleksitas](#kompleksitas)
 - [Struktur Proyek](#struktur-proyek)
-- [Lisensi](#lisensi)
 
 ## 🎯 Tentang Proyek
 
@@ -184,12 +183,12 @@ total jarak: 28
 ## 📁 Struktur Proyek
 
 ```
-DynamicTSP/
-├── DynamicTSP.swift      # File utama dengan implementasi algoritma
-├── README.md             # Dokumentasi proyek
-├── LICENSE.txt           # Lisensi Apache 2.0
-├── .swift-version        # Versi Swift yang digunakan
-└── TSPTests.swift        # File testing (opsional)
+C:.
+    .swift-version
+    DynamicTSP.swift
+    LICENSE.txt
+    README.md
+    swiftly-x86_64.tar.gz
 ```
 
 ### Komponen Kode
@@ -204,12 +203,6 @@ DynamicTSP/
 ## 📝 Lisensi
 
 Proyek ini dilisensikan under **Apache License 2.0**. Lihat file [LICENSE.txt](LICENSE.txt) untuk detail lengkap.
-
-## 📚 Referensi
-
-- [Traveling Salesman Problem - Wikipedia](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
-- [Dynamic Programming Approach to TSP](https://www.geeksforgeeks.org/travelling-salesman-problem-set-1/)
-- [Bitmask DP Tutorial](https://www.hackerearth.com/practice/algorithms/dynamic-programming/bit-masking/tutorial/)
 
 ## 📞 Kontak
 
