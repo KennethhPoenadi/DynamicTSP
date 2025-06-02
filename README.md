@@ -1,10 +1,10 @@
 # DynamicTSP
 
-🚀 **Traveling Salesman Problem Solver menggunakan Dynamic Programming dengan f(i,S)**
+ **Traveling Salesman Problem Solver menggunakan Dynamic Programming dengan f(i,S)**
 
 Implementasi TSP menggunakan algoritma Dynamic Programming dari Persoalan 4 dengan notasi f(i,S) = min{c_ij + f(j, S-{j})}. Ditulis dalam Swift dengan interface CLI yang user-friendly dan tampilan tahapan perhitungan yang detail.
 
-## 📋 Daftar Isi
+##  Daftar Isi
 
 - [Tentang Proyek](#tentang-proyek)
 - [Fitur](#fitur)
@@ -16,7 +16,7 @@ Implementasi TSP menggunakan algoritma Dynamic Programming dari Persoalan 4 deng
 - [Struktur Proyek](#struktur-proyek)
 - [Lisensi](#lisensi)
 
-## 🎯 Tentang Proyek
+##  Tentang Proyek
 
 **Traveling Salesman Problem (TSP)** adalah salah satu masalah optimisasi klasik dalam computer science. Proyek ini mengimplementasikan solusi optimal menggunakan algoritma Dynamic Programming dari **Persoalan 4** dengan notasi f(i,S) untuk mencari jalur terpendek yang mengunjungi semua kota tepat satu kali dan kembali ke kota asal.
 
@@ -28,18 +28,18 @@ Implementasi TSP menggunakan algoritma Dynamic Programming dari Persoalan 4 deng
   <img src="https://img.shields.io/badge/Complexity-O(n²×2ⁿ)-red?style=for-the-badge" alt="Complexity">
 </p>
 
-## ✨ Fitur
+##  Fitur
 
-- 🧮 **Algoritma f(i,S)** - Implementasi exact dari Persoalan 4
-- 💾 **Memoization dengan Bitmask** - Penyimpanan state yang efisien
-- 📊 **Tampilan Tahapan Perhitungan** - Debug output untuk setiap tahap
-- 📈 **Visualisasi Matriks** - Tampilan matriks jarak yang rapi
-- ⚡ **Analisis Performa** - Waktu komputasi dan tracking kompleksitas
-- 🛡️ **Validasi Input Robust** - Pengecekan input dengan peringatan
-- 📚 **Panduan Bantuan Lengkap** - Tutorial dan penjelasan algoritma
-- 🎨 **Interface CLI Modern** - Tampilan yang clean dengan Unicode box drawing
+-  **Algoritma f(i,S)** - Implementasi exact dari Persoalan 4
+-  **Memoization dengan Bitmask** - Penyimpanan state yang efisien
+-  **Tampilan Tahapan Perhitungan** - Debug output untuk setiap tahap
+-  **Visualisasi Matriks** - Tampilan matriks jarak yang rapi
+-  **Analisis Performa** - Waktu komputasi dan tracking kompleksitas
+-  **Validasi Input Robust** - Pengecekan input dengan peringatan
+-  **Panduan Bantuan Lengkap** - Tutorial dan penjelasan algoritma
+-  **Interface CLI Modern** - Tampilan yang clean dengan Unicode box drawing
 
-## 🧮 Algoritma
+##  Algoritma
 
 ### Implementasi Persoalan 4
 
@@ -81,7 +81,7 @@ function computeF(i, S):
     return minCost
 ```
 
-## 🚀 Instalasi
+##  Instalasi
 
 ### Prasyarat
 
@@ -106,7 +106,7 @@ function computeF(i, S):
    swift DynamicTSP.swift
    ```
 
-## 💻 Cara Penggunaan
+##  Cara Penggunaan
 
 ### Menjalankan Program
 
@@ -166,7 +166,7 @@ kota2:5       0       9       10
 kota3:6       13      0       12      
 kota4:8       20      15      0       
 
-🔍 TAHAPAN PERHITUNGAN TSP:
+ TAHAPAN PERHITUNGAN TSP:
 ==================================================
 
 TAHAP 1 - BASIS f(i, ∅):
