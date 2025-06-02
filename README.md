@@ -21,18 +21,24 @@ Implementasi efisien untuk menyelesaikan TSP menggunakan algoritma Dynamic Progr
 
 **Dibuat oleh:** Kenneth Poenadi (13523040)
 
-## ✨ Fitur
+**Built using**
 
-- 🔄 **Dynamic Programming dengan Bitmask** - Algoritma optimal untuk TSP
-- 💾 **Memoization** - Menghindari perhitungan berulang
-- 📊 **Input Manual** - Interface interaktif untuk memasukkan matriks jarak
-- 📈 **Visualisasi Matriks** - Tampilan matriks jarak yang rapi
-- ⚡ **Analisis Performa** - Waktu komputasi dan kompleksitas
-- 🛡️ **Validasi Input** - Pengecekan input yang robust
-- 📚 **Panduan Bantuan** - Tutorial lengkap dalam aplikasi
-- 🎨 **Interface CLI Menarik** - Tampilan yang clean dan profesional
+<p align="center">
+  <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" alt="Swift">
+</p>
 
-## 🧮 Algoritma
+##  Fitur
+
+-  **Dynamic Programming dengan Bitmask** - Algoritma optimal untuk TSP
+-  **Memoization** - Menghindari perhitungan berulang
+-  **Input Manual** - Interface interaktif untuk memasukkan matriks jarak
+-  **Visualisasi Matriks** - Tampilan matriks jarak yang rapi
+-  **Analisis Performa** - Waktu komputasi dan kompleksitas
+-  **Validasi Input** - Pengecekan input yang robust
+-  **Panduan Bantuan** - Tutorial lengkap dalam aplikasi
+-  **Interface CLI Menarik** - Tampilan yang clean dan profesional
+
+##  Algoritma
 
 ### Cara Kerja
 
@@ -63,7 +69,7 @@ function tsp(mask, currentCity):
     return result
 ```
 
-## 🚀 Instalasi
+##  Instalasi
 
 ### Prasyarat
 
@@ -88,7 +94,7 @@ function tsp(mask, currentCity):
    swift DynamicTSP.swift
    ```
 
-## 💻 Cara Penggunaan
+##  Cara Penggunaan
 
 ### Menjalankan Program
 
@@ -114,7 +120,7 @@ Program menyediakan 3 opsi utama:
    - Total jarak minimum
    - Waktu komputasi
 
-## 📖 Contoh Penggunaan
+##  Contoh Penggunaan
 
 ### Contoh 1: Graf Simetris 4 Kota
 
@@ -163,7 +169,7 @@ jalur: kota 0 → kota 1 → kota 2 → kota 3 → kota 0
 total jarak: 28
 ```
 
-## ⚡ Kompleksitas
+##  Kompleksitas
 
 | Metrik | Kompleksitas |
 |--------|--------------|
@@ -204,7 +210,7 @@ C:.
 
 Proyek ini dilisensikan under **Apache License 2.0**. Lihat file [LICENSE.txt](LICENSE.txt) untuk detail lengkap.
 
-## 📞 Kontak
+##  Kontak
 
 **Kenneth Poenadi**
 - Email: 13523040@std.stei.itb.ac.id
