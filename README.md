@@ -21,7 +21,9 @@ Implementasi efisien untuk menyelesaikan TSP menggunakan algoritma Dynamic Progr
 
 **Dibuat oleh:** Kenneth Poenadi (13523040)
 
-**Built using**
+<p align="center">
+  **Built using**
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Swift-FA7343?style=for-the-badge&logo=swift&logoColor=white" alt="Swift">
