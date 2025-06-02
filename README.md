@@ -22,7 +22,7 @@ Implementasi efisien untuk menyelesaikan TSP menggunakan algoritma Dynamic Progr
 **Dibuat oleh:** Kenneth Poenadi (13523040)
 
 <p align="center">
-  **Built using**
+  Built using
 </p>
 
 <p align="center">
